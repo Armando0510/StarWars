@@ -1,27 +1,63 @@
-#container {
-  text-align: center;
 
+ion-title{
+ color: yellow !important;
+
+}
+
+ion-content{
+ --ion-background-color:#000000;
+
+}
+.btnSobre{
+  background-color: red !important;
+  color: #FFF !important;
+  text-transform: uppercase !important;
+  border-radius: 15px !important;
+  width: 100px !important;
+  height: 30px !important;
+ 
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 100%;
+  left: 30%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+ 
+ 
+}
+.btnFilmes{
+  background-color: blue !important;
+  color: #FFF !important;
+  text-transform: uppercase !important;
+  border-radius: 15px !important;
+  width: 100px !important;
+  height: 30px !important;
+ 
+  position: absolute;
+  top: 100%;
+  left: 36%;
+
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin: 0 25px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+
+
+//logo 
+.logoStarWars{
+  width: 150px !important;
+  margin: 0 !important;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: none !important;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.menu{
+  background-color: red !important;
+  border-radius: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
 }

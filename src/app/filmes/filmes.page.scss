@@ -1,0 +1,26 @@
+p{
+    color: white !important;
+
+}
+ion-back-button{
+    --color: blue;
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px
+}
+ion-content{
+    --ion-background-color:black;
+    }
+    ion-header{
+        --ion-background-color:black;
+    }
+    ion-title{
+        color: white !important;
+    }
+
+    ion-card{
+        --background: gray;
+    }
+
+    h1{
+        color: black;
+    }

@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-header>
+    <ion-header translucent>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-title>Filmes Star Wars</ion-title>
+      </ion-toolbar>
+    </ion-header>
+</ion-header>
+</ion-header>
+
+<ion-content padding >
+<ion-card *ngFor="let i of filmes">
+  
+ <!-- <img [src]="http://swapi.dev/api/films/1/+ {{ i.backdrop.path}}">    -->
+<ion-card-content>
+<ion-card-title>
+  <h1>Título do filme: {{ i.title }}</h1>
+  <p>Episódio: {{ i.episode_id }}</p>
+</ion-card-title>
+<p>Detalhes do Filme:{{ i.opening_crawl }}</p>
+<p>Diretor do Filme: {{ i.director }}</p>
+<p>Produtor do Filme: {{ i.producer }}</p>
+</ion-card-content>
+</ion-card>
+<ion-row>
+
+
+
+
+
+
+</ion-row>
+
+</ion-content>
+ <!-- <pre>JSON PURO : {{ filmes | json }}</pre>  -->
+   <!-- <div *ngFor="let i of filmes"> 
+   <p>Título do filme: {{ i.title }}</p>
+   <p>Episódio da série: {{ i.episode_id }}</p>
+   <p>Detalhes do Filme:{{ i.opening_crawl }}</p>
+   <p>Diretor do Filme: {{ i.director }}</p>
+   <p>Produtor do Filme: {{ i.producer }}</p>
+
+  </div>  -->
